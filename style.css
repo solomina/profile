@@ -1,5 +1,38 @@
 /* Here goes your CSS */
 
+.social-links {
+  transition: all 200ms ease;
+}
+
+.social-links a {
+  color: purple;
+  text-decoration: none;
+}
+
+.social-links:hover {
+  transform: rotate(10deg);
+}
+
+.cover-card{
+  padding: 20px;
+  color: darkgray;
+  width: 80%;
+  margin: 30px auto;
+  transition: box-shadow 150ms, transform 150ms;
+  text-align: justify;
+
+}
+
+.button {
+  padding: 20px;
+  color: darkgray;
+  width: 65%;
+  margin: 30px auto;
+  transition: box-shadow 150ms, transform 150ms;
+  text-align: center;
+
+}
+
 body{
   background-color: #EBEBEB;
   font-family: 'Open Sans', sans-serif;;
